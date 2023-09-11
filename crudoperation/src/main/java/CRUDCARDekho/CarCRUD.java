@@ -13,8 +13,6 @@ import java.sql.Statement;
 import java.util.Arrays;
 import java.util.Properties;
 
-import com.mysql.cj.protocol.Resultset;
-
 public class CarCRUD {
 	public Connection openConnection() throws IOException, ClassNotFoundException, SQLException {
 		FileInputStream fileInputStream;
